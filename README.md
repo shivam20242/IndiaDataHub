@@ -1,5 +1,3 @@
-**README.md**
-
 ```markdown
 # Economic Data Catalogue Dashboard
 
@@ -7,7 +5,8 @@ A simple React-based dashboard for browsing and filtering economic datasets from
 - **IND** — Indian economic indicators (RBI, Ministry of Finance, TRAI, etc.)  
 - **IMF** — International data from IMF (employment, inflation, national accounts, etc. for various countries)
 
-The application features a sidebar for category navigation, a paginated table view of datasets, and quick switching between data sources.
+**Live Demo:**  
+https://indiadatahub1.netlify.app/
 
 ## Features
 
@@ -94,6 +93,15 @@ yarn build
 
 The production build will be in the `build/` folder.
 
+## Deployment
+
+This project is deployed on **Netlify**:
+
+**Live URL:**  
+→ https://indiadatahub1.netlify.app/
+
+(Deployed via Netlify's continuous deployment from GitHub)
+
 ## Data Sources
 
 | Source | File              | Description                                          | Main Categories Source                     |
@@ -131,3 +139,4 @@ MIT License
 ---
 
 Made with ❤️ for easier economic data exploration
+```
